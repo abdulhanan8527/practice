@@ -38,4 +38,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Run Surge
-      run: surge ./build relieved-cellar.surge.sh --token ${{secrets.SURGE_TOKEN3}}
+      run: surge ./build classy-frog.surge.sh --token ${{secrets.SURGE_TOKEN3}}
